@@ -33,3 +33,15 @@ Framed in terms from the literature on fantasy in games, the realistic fantasy i
 
 Intrinsic fantasies are preferred. Intrinsic fantasies typically lead to better learning outcomes because the fantasy elements are directly tied to the skills or knowledge being taught. This integration helps players understand and retain information more effectively. When the fantasy is intrinsically linked to the core mechanics or learning objectives, players are more likely to be genuinely engaged with the content. The fantasy isn't just a superficial layer but an integral part of the experience. Intrinsic fantasies can create a more cohesive and immersive experience, as the game world and its mechanics are more tightly integrated. When the fantasy aligns closely with the skills being learned, it reduces cognitive load. Players don't have to mentally separate the fantasy elements from the core learning or gameplay. These fantasies can foster intrinsic motivation, where players are driven by the inherent satisfaction of the activity itself rather than external rewards.
 
+### Gameplay Mechanics
+
+Paragraph about light, colors, and light sources.
+
+Paragraph about plants and fungus.
+
+Paragraph obstructions.
+
+Paragraph about lenses, prisms, and mirrors.
+
+Paragraph about levels.
+
