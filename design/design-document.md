@@ -1,3 +1,26 @@
+## Context
+
+The learning game is being developed as a submission for the 15th Pirate Software Game Jam. The themes of the game jam are "Shadows" and "Alchemy", both of which needs to be featured in the game. The game jam takes place from the 17th of July until the 31st of July and therefore has a duration of two weeks.
+
+### Purpose
+
+- The developers should have fun.
+- The developers should improve their game development skills.
+- The developers should end up with an artifact which demonstrates their development skills.
+- Educational institutions should have access to another tool for teaching introductory optics.
+
+### Target Audience and Setting
+
+The target audience for the game is high school students, playing on relatively weak laptops, at home or in the classroom. The game is only meant to give an intuition about optics before the topic is tackled more thoroughly.
+
+The scope of the target setting is reduced by (1) assuming that laptops do not have touch input, (2) that the laptops are connected to the internet, (3) that they have browsers that can open websites, and (4) that the players understand English.
+
+### Team Structure and Responsibilities
+
+The development team consist of: Leo, responsible for game design, pedagogy, programming, music, and audio; and RP, responsible for visuals.
+
+## 1. Design
+
 ### Fantasy
 
 The fantasy in Shadow Crafter can be split into two parts, the realistic part and the fantastical part. The realistic part of the fantasy consists of light, colors, light sources, obstructions, slits, lenses, prisms, mirrors, etc. These objects in the fantasy behave like the same objects in the real world. The fantastical part of the fantasy includes the color sensitive plants and fungus, and the world where these plants and fungus is required.
