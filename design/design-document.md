@@ -67,6 +67,21 @@ Paragraph about levels.
 
 ### 3.3 Art Style and Visuals
 
+- Cutout
+- Stop motion
+
+![screenshot from "Don't Starve"](assets/don't-starve.png)  
+Screenshot from Don't Starve showing a cutout style.
+
+![screenshot from "Shank"](assets/shank.png)  
+Screenshot from Shank showing a cutout-like style.
+
+![screenshot from "Tails of Iron"](assets/tails-of-iron.png)  
+Screenshot from Tails of Iron showing a cutout-like style.
+
+![.GIF from "Paper Mario"](assets/paper-mario.gif)  
+.GIF from Paper Mario: The Origami King showing animations with the cutout style.
+
 ### 3.4 Audio and Music
 
 ## 4. Development
