@@ -43,27 +43,141 @@ The development team consist of: Leo, responsible for game design, pedagogy, pro
 
 ### 3.1 Fantasy
 
-The fantasy in Shadow Crafter can be split into two parts, the realistic part and the fantastical part. The realistic part of the fantasy consists of light, colors, light sources, obstructions, slits, lenses, prisms, mirrors, etc. These objects in the fantasy behave like the same objects in the real world. The fantastical part of the fantasy includes the color sensitive plants and fungus, and the world where these plants and fungus is required.
-
-The setting of the game is based on the fantasy trope of the European middle ages, like Frieren. In the world of the game, specific plants and fungus that requires specific light conditions are grown by herbalists and alchemists to be used for brewing potions, medicine, and cooking.
-
-Fantasy is about making the impossible possible. Although you can technically achieve the realistic part of the fantasy in the real world, by obtaining the same objects and assembling the level, this is still considered fantasy because doing so in the real world would be too time consuming and expensive.
-
-Framed in terms from the literature on fantasy in games, the realistic fantasy is an intrinsic fantasy, while the fantastical fantasy is extrinsic. For the former, this is because understanding the realistic fantasy, or in other words the optics of the real world, is an integral part of the skill needed to progress in the game. When fantasy is used in games, it is always the case that the succeeding in the game leads to success in the fantasy. Being skilled at playing the game leads to success as a herbalist in the world of Shadow Crafter; however, understanding the fantastical elements of the fantasy does not contribute much to solving the challenge of the game, which is why the fantastical fantasy is extrinsic. It is simply overlaid the actual game mechanics and challenge of the game.
-
-Intrinsic fantasies are preferred. Intrinsic fantasies typically lead to better learning outcomes because the fantasy elements are directly tied to the skills or knowledge being taught. This integration helps players understand and retain information more effectively. When the fantasy is intrinsically linked to the core mechanics or learning objectives, players are more likely to be genuinely engaged with the content. The fantasy isn't just a superficial layer but an integral part of the experience. Intrinsic fantasies can create a more cohesive and immersive experience, as the game world and its mechanics are more tightly integrated. When the fantasy aligns closely with the skills being learned, it reduces cognitive load. Players don't have to mentally separate the fantasy elements from the core learning or gameplay. These fantasies can foster intrinsic motivation, where players are driven by the inherent satisfaction of the activity itself rather than external rewards.
+Playing as an alchemist that is actually just doing chemistry.
 
 ### 3.2 Gameplay Mechanics
 
-Paragraph about light, colors, and light sources.
+#### Characteristics
 
-Paragraph about plants and fungus.
+<table>
+  <tr>
+    <th>Characteristics</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Density</td>
+    <td>Substances has density, affecting their buoyancy when submerged in each other.</td>
+  </tr>
+  <tr>
+    <td>Temperature</td>
+    <td>Substances can be either warm or cold. Temperature characteristics might be conditions for certain chemical reactions. Temperature might affect density.</td>
+  </tr>
+  <tr>
+    <td>Vitality</td>
+    <td>Creatures have vitality – the amount of life and energy they have left.</td>
+  </tr>
+</table>
 
-Paragraph obstructions.
+#### Phenomena
 
-Paragraph about lenses, prisms, and mirrors.
+<table>
+  <tr>
+    <th>Phenomenon</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Burn damage</td>
+    <td>Water-based creatures take damage when at high temperature, and carbon-based creatures take damage when at very high temperatures.</td>
+  </tr>
+  <tr>
+    <td>Explosion</td>
+    <td>An event where matter is pushed away from a center.</td>
+  </tr>
+</table>
 
-Paragraph about levels.
+#### Substance Interactions
+
+<table>
+  <tr>
+    <th>Substance</th>
+    <th>Nickname</th>
+    <th>Interactions</th>
+  </tr>
+  <tr>
+    <td rowspan="4">Carbon dioxide gas</td>
+    <td>Coal acid</td>
+    <td>Is released during burning of coal.</td>
+  </tr>
+  <tr>
+    <td>Coal acid</td>
+    <td>Forms <em>carbonic acid</em> when dissolved in water.</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>Can displace <em>flame gas</em> so that fires die.</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>Can displace <em>vital gas</em> so that breathing creatures suffocate.</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Nitrogen gas</td>
+    <td>Choke gas</td>
+    <td>Can displace <em>vital gas</em> so that breathing creatures suffocate.</td>
+  </tr>
+  <tr>
+    <td>Choke gas</td>
+    <td>Can displace <em>flame gas</em> so that fires die.</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Oxygen gas</td>
+    <td>Flame gas</td>
+    <td>Necessary for combustion and sustaining fire.</td>
+  </tr>
+  <tr>
+    <td>Acid substance</td>
+    <td rowspan="2">Takes part in some reactions that generate acids.</td>
+  </tr>
+  <tr>
+    <td>Oxy-gen</td>
+  </tr>
+  <tr>
+    <td>Vital gas</td>
+    <td>All breathing creatures can only survive short periods of time without <em>vital gas</em>. The gas is vital for them.</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Oxyhydrogen</td>
+    <td>Oxy-hydro-gen</td>
+    <td>Is created by mixing <em>oxygen</em> and <em>hydrogen</em>.</td>
+  </tr>
+  <tr>
+    <td>Boom gas</td>
+    <td>Combusts at high temperatures, creating an explosion and <em>water vapor</em>.</td>
+  </tr>
+  <tr>
+    <td>Water vapor</td>
+    <td>...</td>
+    <td>Condenses to water at cold temperatures.</td>
+  </tr>
+  <tr>
+    <td>Water</td>
+    <td>...</td>
+    <td>Boils to water vapor at high temperatures.</td>
+  </tr>
+</table>
+
+Multiple names used for the same gases or substances as well as the history of the name to give clues about the game mechanics.
+
+- Hydrogen
+  - Gas that can generate water when combusted with oxygen.
+    - Hydro-gen (en.) ("gen" has the same origin as "generating")
+    - Water substance (nb: "vannstoff")
+- Oxygen
+  - Gas that sustains flames.
+    - Flame gas / flame air (sv: "eldluft")
+  - Gas that is part of reactions that create acid.
+    - Acid substance (nb: "surstoff")
+    - Oxy-gen (en.) (oxy means "acid", comes from Greek meaning "sharp") ("gen" has the same origin as "generating")
+  - Gas that is vital to life.
+    - Vital gas / vital air (nb: "vitalluft")
+- Oxyhydrogen
+  - Gas that explodes when ignited.
+    - Boom gas (nb: "knallgass")
+  - Gas that is a mixture of oxygen and hydrogen.
+    - Oxyhydrogen
+- Nitrogen
+  - Gas that causes asphyxiation.
+    - Choke gas / choke substance (nb: "kvelstoff")
 
 ### 3.3 Art Style and Visuals
 
