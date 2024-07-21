@@ -185,16 +185,16 @@ Multiple names used for the same gases or substances as well as the history of t
 - Stop motion
 
 ![screenshot from "Don't Starve"](assets/don't-starve.png)  
-Screenshot from Don't Starve showing a cutout style.
+Screenshot from _Don't Starve_ showing a cutout style.
 
 ![screenshot from "Shank"](assets/shank.png)  
-Screenshot from Shank showing a cutout-like style.
+Screenshot from _Shank_ showing a cutout-like style.
 
 ![screenshot from "Tails of Iron"](assets/tails-of-iron.png)  
-Screenshot from Tails of Iron showing a cutout-like style.
+Screenshot from _Tails of Iron_ showing a cutout-like style.
 
 ![.GIF from "Paper Mario"](assets/paper-mario.gif)  
-.GIF from Paper Mario: The Origami King showing animations with the cutout style.
+.GIF from _Paper Mario: The Origami King_ showing animations with the cutout style.
 
 ### 3.4 Audio and Music
 
@@ -202,4 +202,115 @@ Screenshot from Tails of Iron showing a cutout-like style.
 
 ### 4.1 Tools
 
+The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rendering features that fit well to the planned 2.5D art style. It is also the engine that the programmer is most used to.
+
 ### 4.2 Timeline and Milestones
+
+<table>
+  <tr>
+    <th>Milestone</th>
+    <th colspan="2">Due date</th>
+    <th>Completion Time</th>
+    <th>Comment</th>
+  </tr>
+  <tr>
+    <td>Initial player movement system</td>
+    <td>T-9d-14h</td>
+    <td>2024-07-21 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial creature movement system</td>
+    <td>T-9d-14h</td>
+    <td>2024-07-21 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial vitality system</td>
+    <td>T-8d-14h</td>
+    <td>2024-07-22 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial ladle swing system</td>
+    <td>T-8d-14h</td>
+    <td>2024-07-22 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial gas system</td>
+    <td>T-7d-14h</td>
+    <td>2024-07-23 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Add oxygen</td>
+    <td>T-7d-14h</td>
+    <td>2024-07-23 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Add hydrogen</td>
+    <td>T-7d-14h</td>
+    <td>2024-07-23 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial temperature system</td>
+    <td>T-7d-14h</td>
+    <td>2024-07-23 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial explosion system</td>
+    <td>T-7d-14h</td>
+    <td>2024-07-23 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial suffocation system</td>
+    <td>T-9d-14h</td>
+    <td>2024-07-21 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial player movement animation system</td>
+    <td>T-8d-14h</td>
+    <td>2024-07-22 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Initial creature movement animation system</td>
+    <td>T-8d-14h</td>
+    <td>2024-07-22 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Design and implement levels 1-5</td>
+    <td>T-6d-14h</td>
+    <td>2024-07-24 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Submit</td>
+    <td>T-14h</td>
+    <td>2024-07-30 Z 23:00</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+T is the submission deadline.
