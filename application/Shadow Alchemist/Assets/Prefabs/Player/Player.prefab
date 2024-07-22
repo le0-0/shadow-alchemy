@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 3219650657432907443}
   - component: {fileID: 858090141811934856}
   m_Layer: 0
-  m_Name: pixel
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
