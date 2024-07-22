@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhqrcg46hlo2h"]
+
+[ext_resource type="PackedScene" uid="uid://c3csj7pt3kvoy" path="res://prefabs/player/player.tscn" id="1_2whqu"]
+[ext_resource type="PackedScene" uid="uid://cw4xdd2yqagxd" path="res://prefabs/camera/camera.tscn" id="1_vmaih"]
+[ext_resource type="PackedScene" uid="uid://cijs476o8nxgg" path="res://prefabs/levels/debug/debug-level.tscn" id="2_tnr3j"]
+
+[node name="Debug" type="Node3D"]
+
+[node name="Camera" parent="." instance=ExtResource("1_vmaih")]
+
+[node name="Debug-level" parent="." instance=ExtResource("2_tnr3j")]
+
+[node name="Player" parent="." instance=ExtResource("1_2whqu")]
