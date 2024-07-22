@@ -210,20 +210,22 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
   <tr>
     <th>Milestone</th>
     <th colspan="2">Due date</th>
-    <th>Completion Time</th>
+    <th colspan="2">Completion Time</th>
     <th>Comment</th>
   </tr>
   <tr>
     <td>Initial player movement system</td>
     <td>T-9d-14h</td>
     <td>2024-07-21 Z 23:00</td>
-    <td></td>
-    <td></td>
+    <td style="background-color: #EF9A9A; color: black;">+12h40m</td>
+    <td>2024-07-22 Z 11:40</td>
+    <td>Included setting up Godot project.</td>
   </tr>
   <tr>
     <td>Initial creature movement system</td>
     <td>T-9d-14h</td>
     <td>2024-07-21 Z 23:00</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -233,11 +235,13 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
     <td>2024-07-22 Z 23:00</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Initial ladle swing system</td>
     <td>T-8d-14h</td>
     <td>2024-07-22 Z 23:00</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -247,11 +251,13 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
     <td>2024-07-23 Z 23:00</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Add oxygen</td>
     <td>T-7d-14h</td>
     <td>2024-07-23 Z 23:00</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -261,11 +267,13 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
     <td>2024-07-23 Z 23:00</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Initial temperature system</td>
     <td>T-7d-14h</td>
     <td>2024-07-23 Z 23:00</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -275,11 +283,13 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
     <td>2024-07-23 Z 23:00</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Initial suffocation system</td>
     <td>T-9d-14h</td>
     <td>2024-07-21 Z 23:00</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -289,11 +299,13 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
     <td>2024-07-22 Z 23:00</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Initial creature movement animation system</td>
     <td>T-8d-14h</td>
     <td>2024-07-22 Z 23:00</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
@@ -303,11 +315,13 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
     <td>2024-07-24 Z 23:00</td>
     <td></td>
     <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Submit</td>
     <td>T-14h</td>
     <td>2024-07-30 Z 23:00</td>
+    <td></td>
     <td></td>
     <td></td>
   </tr>
