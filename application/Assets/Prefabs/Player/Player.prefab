@@ -52,7 +52,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6ada2292409d39247ad19c5f7313f697, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -132,6 +132,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcabad7cb5d629f42bd41834f2f5ad29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  contactBoxCenterOffset: {x: 0, y: -0.4}
+  contactBoxSize: {x: 0.7, y: 1}
 --- !u!1 &5414770920215769117
 GameObject:
   m_ObjectHideFlags: 0

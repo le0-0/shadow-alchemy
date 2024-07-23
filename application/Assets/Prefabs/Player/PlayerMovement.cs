@@ -8,34 +8,38 @@ public class PlayerMovement : MonoBehaviour
   private const float MAX_SPEED = 5f;
   private const float OFF_GROUND_MODIFIER = 0.5f;
 
+  private GroundDetection groundDetection;
   private Rigidbody2D rigidbody2d;
 
-  void Start()
+  private void FixedUpdate()
   {
-    rigidbody2d = GetComponent<Rigidbody2D>();
-  }
-
-  void FixedUpdate()
-  {
-    bool isAcceleratingSideways = false;
+    bool isAcceleratingSameDirectionAsMovement = false;
+    float sidewaysAccelerationModifier = 1f;
+    sidewaysAccelerationModifier *= groundDetection.IsGrounded ? 1f : OFF_GROUND_MODIFIER;
     float xVelocity = rigidbody2d.velocity.x;
 
     if (Input.GetKey(KeyCode.A))
     {
-      isAcceleratingSideways = true;
-      xVelocity = MathF.Max(-MAX_SPEED, xVelocity - (ACCELERATION * Time.deltaTime));
+      xVelocity = MathF.Max(-MAX_SPEED, xVelocity - sidewaysAccelerationModifier * ACCELERATION * Time.deltaTime);
+      isAcceleratingSameDirectionAsMovement = xVelocity < 0;
     }
     if (Input.GetKey(KeyCode.D))
     {
-      isAcceleratingSideways = true;
-      xVelocity = MathF.Min(MAX_SPEED, xVelocity + (ACCELERATION * Time.deltaTime));
+      xVelocity = MathF.Min(MAX_SPEED, xVelocity + sidewaysAccelerationModifier * ACCELERATION * Time.deltaTime);
+      isAcceleratingSameDirectionAsMovement = 0 < xVelocity;
     }
 
-    if (!isAcceleratingSideways)
+    if (!isAcceleratingSameDirectionAsMovement && groundDetection.IsGrounded)
     {
-      xVelocity = MathF.Sign(xVelocity) * MathF.Max(0, MathF.Abs(xVelocity) - (ACCELERATION * Time.deltaTime));
+      xVelocity = MathF.Sign(xVelocity) * MathF.Max(0, MathF.Abs(xVelocity) - ACCELERATION * Time.deltaTime);
     }
 
     rigidbody2d.velocity = new Vector2(xVelocity, rigidbody2d.velocity.y);
+  }
+
+  private void Start()
+  {
+    groundDetection = GetComponent<GroundDetection>();
+    rigidbody2d = GetComponent<Rigidbody2D>();
   }
 }
