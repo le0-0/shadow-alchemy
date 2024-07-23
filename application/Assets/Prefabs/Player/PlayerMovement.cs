@@ -1,18 +1,12 @@
 using System;
-
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-  [SerializeField]
-  private static float MAX_SPEED = 5f;
-
-  [SerializeField]
-  private static float ACCELERATION = 20f;
-
-  [SerializeField]
-  private static float OFF_GROUND_MODIFIER = 0.5f;
+  private const float ACCELERATION = 20f;
+  private const float MAX_SPEED = 5f;
+  private const float OFF_GROUND_MODIFIER = 0.5f;
 
   private Rigidbody2D rigidbody2d;
 
@@ -32,16 +26,16 @@ public class PlayerMovement : MonoBehaviour
       xVelocity = MathF.Max(-MAX_SPEED, xVelocity - (ACCELERATION * Time.deltaTime));
     }
     if (Input.GetKey(KeyCode.D))
-		{
-			isAcceleratingSideways = true;
-			xVelocity = MathF.Min(MAX_SPEED, xVelocity + (ACCELERATION * Time.deltaTime));
-		}
+    {
+      isAcceleratingSideways = true;
+      xVelocity = MathF.Min(MAX_SPEED, xVelocity + (ACCELERATION * Time.deltaTime));
+    }
 
     if (!isAcceleratingSideways)
     {
       xVelocity = MathF.Sign(xVelocity) * MathF.Max(0, MathF.Abs(xVelocity) - (ACCELERATION * Time.deltaTime));
     }
 
-    rigidbody2d.velocity = new Vector2 (xVelocity, rigidbody2d.velocity.y);
+    rigidbody2d.velocity = new Vector2(xVelocity, rigidbody2d.velocity.y);
   }
 }
