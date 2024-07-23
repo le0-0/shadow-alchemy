@@ -217,9 +217,9 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
     <td>Initial player movement system</td>
     <td>T-9d-14h</td>
     <td>2024-07-21 Z 23:00</td>
-    <td style="background-color: #EF9A9A; color: black;">+12h40m</td>
-    <td>2024-07-22 Z 11:40</td>
-    <td>Included setting up Godot project.</td>
+    <td style="background-color: #EF9A9A; color: black;">+1d18h</td>
+    <td>2024-07-23 Z 17:00</td>
+    <td>Included setting up Godot project, scrapping it, then setting up the Unity project.</td>
   </tr>
   <tr>
     <td>Initial creature movement system</td>
