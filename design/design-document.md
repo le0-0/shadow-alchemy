@@ -215,96 +215,96 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
   </tr>
   <tr>
     <td>Initial player movement system</td>
-    <td>T-9d-14h</td>
-    <td>2024-07-21 Z 23:00</td>
-    <td style="background-color: #EF9A9A; color: black;">+1d18h</td>
-    <td>2024-07-23 Z 17:00</td>
+    <td>T-9d-13h</td>
+    <td>2024-07-22 Z 00:00</td>
+    <td style="background-color: #EF9A9A; color: black;">+1d15h</td>
+    <td>2024-07-23 Z 15:00</td>
     <td>Included setting up Godot project, scrapping it, then setting up the Unity project.</td>
   </tr>
   <tr>
     <td>Initial creature movement system</td>
-    <td>T-9d-14h</td>
-    <td>2024-07-21 Z 23:00</td>
+    <td>T-9d-13h</td>
+    <td>2024-07-22 Z 00:00</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Initial vitality system</td>
-    <td>T-8d-14h</td>
-    <td>2024-07-22 Z 23:00</td>
-    <td></td>
-    <td></td>
+    <td>T-8d-13h</td>
+    <td>2024-07-23 Z 00:00</td>
+    <td style="background-color: #EF9A9A; color: black;">+17h</td>
+    <td>2024-07-23 Z 17:00</td>
     <td></td>
   </tr>
   <tr>
     <td>Initial ladle swing system</td>
-    <td>T-8d-14h</td>
-    <td>2024-07-22 Z 23:00</td>
+    <td>T-8d-13h</td>
+    <td>2024-07-23 Z 00:00</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Initial gas system</td>
-    <td>T-7d-14h</td>
-    <td>2024-07-23 Z 23:00</td>
+    <td>T-7d-13h</td>
+    <td>2024-07-24 Z 00:00</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Add oxygen</td>
-    <td>T-7d-14h</td>
-    <td>2024-07-23 Z 23:00</td>
+    <td>T-7d-13h</td>
+    <td>2024-07-24 Z 00:00</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Add hydrogen</td>
-    <td>T-7d-14h</td>
-    <td>2024-07-23 Z 23:00</td>
+    <td>T-7d-13h</td>
+    <td>2024-07-24 Z 00:00</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Initial temperature system</td>
-    <td>T-7d-14h</td>
-    <td>2024-07-23 Z 23:00</td>
+    <td>T-7d-13h</td>
+    <td>2024-07-24 Z 00:00</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Initial explosion system</td>
-    <td>T-7d-14h</td>
-    <td>2024-07-23 Z 23:00</td>
+    <td>T-7d-13h</td>
+    <td>2024-07-24 Z 00:00</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Initial suffocation system</td>
-    <td>T-9d-14h</td>
-    <td>2024-07-21 Z 23:00</td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Initial player movement animation system</td>
-    <td>T-8d-14h</td>
-    <td>2024-07-22 Z 23:00</td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Initial creature movement animation system</td>
-    <td>T-8d-14h</td>
-    <td>2024-07-22 Z 23:00</td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -319,8 +319,8 @@ The game will be developed in Unity. Unity offers a solid mix of 2D and 3D rende
   </tr>
   <tr>
     <td>Submit</td>
-    <td>T-14h</td>
-    <td>2024-07-30 Z 23:00</td>
+    <td>T-13h</td>
+    <td>2024-07-31 Z 00:00</td>
     <td></td>
     <td></td>
     <td></td>
