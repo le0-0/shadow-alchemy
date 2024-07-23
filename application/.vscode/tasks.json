@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Format Unity Project",
+      "type": "shell",
+      "command": "dotnet csharpier '.\\Shadow Alchemist\\Assets'"
+    }
+  ]
+}
