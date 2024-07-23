@@ -1,8 +1,9 @@
 using System;
 using UnityEngine;
 
+[RequireComponent(typeof(GroundDetection))]
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerMovement : MonoBehaviour
+public class PlayerSidewaysMovement : MonoBehaviour
 {
   private const float ACCELERATION = 20f;
   private const float MAX_SPEED = 5f;
@@ -55,10 +56,11 @@ public class PlayerMovement : MonoBehaviour
     sidewaysAccelerationModifier *= groundDetection.IsGrounded ? 1f : OFF_GROUND_MODIFIER;
 
     rigidbody2d.velocity = new Vector2(
-      MathF.Max(
-        -MAX_SPEED,
+      Mathf.Clamp(
         rigidbody2d.velocity.x
-          + sidewaysAccelerationDirection * sidewaysAccelerationModifier * ACCELERATION * Time.deltaTime
+          + sidewaysAccelerationDirection * sidewaysAccelerationModifier * ACCELERATION * Time.deltaTime,
+        -MAX_SPEED,
+        MAX_SPEED
       ),
       rigidbody2d.velocity.y
     );

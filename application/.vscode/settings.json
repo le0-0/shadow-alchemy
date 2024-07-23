@@ -59,7 +59,7 @@
   },
 
   // Code Spell Checker extension
-  "cSpell.words": ["Behaviour", "Raycast", "rigidbody"],
+  "cSpell.words": ["behaviour", "cooldown", "Mathf", "raycast", "rigidbody"],
 
   // .NET extension
   "dotnet.defaultSolution": "application.sln",
