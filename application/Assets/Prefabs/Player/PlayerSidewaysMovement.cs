@@ -7,7 +7,7 @@ public class PlayerSidewaysMovement : MonoBehaviour
 {
   private const float ACCELERATION = 20f;
   private const float MAX_SPEED = 5f;
-  private const float OFF_GROUND_MODIFIER = 0.5f;
+  private const float OFF_GROUND_MODIFIER = 0.3f;
 
   private GroundDetection groundDetection;
   private Rigidbody2D rigidbody2d;

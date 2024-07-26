@@ -25,6 +25,9 @@ public class PlayerJumping : MonoBehaviour
     if (timeSinceLastJump < JUMP_COOLDOWN)
       return;
 
+    if (!groundDetection.IsGrounded)
+      return;
+
     if (!Input.GetKeyDown(KeyCode.W))
       return;
 

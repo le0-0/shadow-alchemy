@@ -6,21 +6,33 @@ public class Gas : MonoBehaviour
 {
   private const float MAX_SPEED = 1f;
 
+  [SerializeField]
+  private GasType gasType;
+
   private new Rigidbody2D rigidbody2D;
+  private GasVolume gasVolume;
 
   private void EnterGasVolume(GasVolume gasVolume)
   {
-    Debug.Log("Enter");
+    this.gasVolume = gasVolume;
+    gasVolume.CloudsByGasType[gasType].Add(this);
   }
 
   private void ExitGasVolume(GasVolume gasVolume)
   {
-    Debug.Log("Exit");
+    if (this.gasVolume == gasVolume)
+    {
+      // Respawn in same volume.
+    }
+    else
+    {
+      // Remove itself from its former volume because the cloud has entered another volume.
+      gasVolume.CloudsByGasType[gasType].Remove(this);
+    }
   }
 
   private void OnTriggerEnter2D(Collider2D other)
   {
-    Debug.Log("Enter");
     if (LayerMask.LayerToName(other.gameObject.layer) == "GasVolume")
     {
       GasVolume gasVolume = other.gameObject.GetComponent<GasVolume>();
@@ -30,7 +42,6 @@ public class Gas : MonoBehaviour
 
   private void OnTriggerExit2D(Collider2D other)
   {
-    Debug.Log("Exit");
     if (LayerMask.LayerToName(other.gameObject.layer) == "GasVolume")
     {
       GasVolume gasVolume = other.gameObject.GetComponent<GasVolume>();
