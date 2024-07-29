@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2406837323873935511, guid: ef6f726038843844b8c78c2d48e816d9, type: 3}
       propertyPath: gasType
-      value: 60808
+      value: 27277
       objectReference: {fileID: 0}
     - target: {fileID: 3023910711106113807, guid: ef6f726038843844b8c78c2d48e816d9, type: 3}
       propertyPath: m_Color.b

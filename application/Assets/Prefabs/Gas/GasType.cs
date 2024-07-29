@@ -1,10 +1,11 @@
 internal enum GasType
 {
-  Hydrogen,
-  Nitrogen,
-  Oxygen,
+  Hydrogen = 1,
+  Nitrogen = 7,
+  Oxygen = 8,
 
-  CarbonMonoxide,
-  CarbonDioxide,
-  Oxyhydrogen,
+  Air = 0x708,
+  CarbonMonoxide = 0x6a8,
+  CarbonDioxide = 0x6a8d,
+  Oxyhydrogen = 0x108,
 }
